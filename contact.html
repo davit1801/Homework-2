@@ -4,12 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <h1>Contact us</h1>
+    <nav>
+        <a href="./index.html">Main</a>
+        <a href="./contact.html">Contact</a>
+        <a href="./video.html">Video</a>
+        
+    </nav>
     <form action="">
-        <input type="text" placeholder="Enter your Firstname">
-        <input type="text" placeholder="Enter your Lasttname">
-        <input type="email" placeholder="">
+        <ul>
+            <li><input type="text" placeholder="Input your Firstname" required></li>
+            <li><input type="text" placeholder="Input your Lastname" required></li>
+            <li><input type="email" placeholder="Input your Email" required></li>
+            <li><input type="number" placeholder="Input your age" min="18" required></li>
+            <li><textarea name="" id="" cols="40" rows="10" placeholder="Input Text"></textarea></li>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+            
+        </ul>
     </form>
 </body>
 </html>

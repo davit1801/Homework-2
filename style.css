@@ -1,0 +1,30 @@
+img {
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+iframe{
+    margin-top: 50px;
+}
